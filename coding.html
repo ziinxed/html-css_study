@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset = "utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Spartan&display=swap" rel="stylesheet">
     <style>
         .container{
             display : flex;
@@ -9,6 +10,11 @@
         }
         header{
             padding-left : 20px;
+            font-size : 4rem
+           
+        }
+        h1{
+            font-family : 'Spartan', sans-serif;
         }
         footer{
             padding:20px;
@@ -18,37 +24,51 @@
             display : flex;
         }
         .content nav{
-
+            background-color: royalblue
         }
         nav, aside{
             flex-basis : 300px;
             flex-shrink : 0;
+            font-size : 1.5rem;
         }
         main{
             padding : 10px;
         }
+        nav li{
+            font-family: 'Raleway', sans-serif;
+            text-color: white;
+        }
+        :visited{
+            color: white;
+        }
     </style>
 </head>
 <body>
-    <div>
+    <div class = "container">
         <header>
-            <h1>JANG GI DEOK : 장 기 덕</h1>
+            <h1>JANG GI DEOK</h1>
         </header>
-        <section>
+        <section class = "content">
             <nav>   
-                <img src="" alt="장기덕 이미지">
+                <img src="IMG_4560.JPG" width = "250" alt="장기덕 이미지">
                 <ul>
-                    <li><a href="">ICE HOCKEY</a></li>
-                    <li><a href="">ARCHITECTURE</a></li>
-                    <li><a href="">PHOTOGRAPH</a></li>
-                    <li><a href="">CODING</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="icehockey.html">ICE HOCKEY</a></li>
+                    <li><a href="architecture.html">ARCHITECTURE</a></li>
+                    <li><a href="photograph.html">PHOTOGRAPH</a></li>
+                    <li><a href="coding.html">CODING</a></li>
                 </ul>
             </nav>
             <main>
-
+                <figure>
+                    <img src="newbie.jpeg" width = "1000" alt="초보">
+                </figure>
             </main>
         </section>
-        <footer></footer>
+        <footer>
+            <a href="mailto:ziinxed@gmail.com">E-Mail : ziinxed@gmail.com</a>
+            
+        </footer>
     </div>
 </body>
 </html>
